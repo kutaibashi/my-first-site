@@ -103,3 +103,23 @@ body.dark-mode .card {
   border-color: #3a3733;
   background-color: #262421;
 }
+
+.skip-link {
+  position: absolute;
+  inset-block-start: -4rem;
+  inset-inline-start: 1rem;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+  background-color: var(--ink);
+  color: var(--paper);
+}
+
+.skip-link:focus {
+  inset-block-start: 1rem;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
