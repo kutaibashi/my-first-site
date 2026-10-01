@@ -123,3 +123,22 @@ button:focus-visible {
   outline: 3px solid var(--accent);
   outline-offset: 3px;
 }
+
+.weather {
+  margin-block: 2rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--accent);
+  border-radius: 0.5rem;
+}
+
+.weather ul {
+  padding-inline-start: 1.25rem;
+}
+
+.weather .credit {
+  font-size: 0.875rem;
+}
+
+.weather .licence {
+  white-space: nowrap;
+}
